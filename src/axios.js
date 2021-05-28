@@ -5,7 +5,7 @@ const axiosInstance = axios.create({
   baseURL:
     environment.NODE_ENV === "production"
       ? ""
-      : "https://hackon-sks.herokuapp.com",
+      : process.env.REACT_APP_BACKEND_URL,
 });
 
 export default axiosInstance;

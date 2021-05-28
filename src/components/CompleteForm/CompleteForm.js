@@ -10,7 +10,7 @@ import NumericInput from "../Inputs/NumericInput";
 import SelectInput from "../Inputs/SelectInput";
 
 const inputFieldDefault = (defaultValue) => {
-  return false ? defaultValue : "";
+  return true ? defaultValue : "";
 };
 
 const useStyles = makeStyles((theme) => ({
