@@ -1,0 +1,1 @@
+export const SET_TOC_ACCEPTED = 'SET_TOC_ACCEPTED';
